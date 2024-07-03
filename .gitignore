@@ -3682,3 +3682,5 @@
 .venv/Lib/site-packages/urllib3/util/util.py
 .venv/Lib/site-packages/urllib3/util/wait.py
 .venv/Scripts/normalizer.exe
+
+.vercel
