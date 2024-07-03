@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def concursos_root():
-    return {"/estado/{Estado}": "exemplo: /estado/MS"}     
+    return {"https://api-pci.vercel.app/estado/{Estado}": "exemplo: /estado/MS"}     
 
 @app.get("/estado/{item_id}")
 def estado(item_id: str) -> Dict[str, Any]:
